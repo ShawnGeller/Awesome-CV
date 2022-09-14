@@ -23,9 +23,6 @@
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
-% Specify the location of the included fonts
-\fontdir[fonts/]
-
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
@@ -39,6 +36,7 @@
 % \definecolor{text}{HTML}{333333}
 % \definecolor{graytext}{HTML}{5D5D5D}
 % \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
 
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
@@ -53,16 +51,16 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[rectangle,edge,right]{./examples/profile}
-\name{Byungjin}{Park}
-\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
+\name{Shawn}{Geller}
+\position{Graduate Student{\enskip\cdotp\enskip}Quantum Characterization}
+\address{PO Box 1802, Boulder, CO 80306 USA}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
+\mobile{+1 (718) 704-9422}
+\email{shawn.geller@colorado.edu}
 %\dateofbirth{January 1st, 1970}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+% \homepage{www.posquit0.com}
+\github{ShawnGeller}
+% \linkedin{posquit0}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -70,13 +68,10 @@
 % \reddit{reddit-id}
 % \medium{madium-id}
 % \kaggle{kaggle-id}
-% \googlescholar{googlescholar-id}{name-to-display}
+\googlescholar{bzxZ6FMAAAAJ}{shawn-geller}
 %% \firstname and \lastname will be used
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra information}
-
-\quote{``Be the change that you want to see in the world."}
-
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -89,7 +84,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Byungjin Park~~~·~~~Résumé}
+  {Shawn Geller~~~·~~~Résumé}
   {\thepage}
 
 
@@ -99,12 +94,9 @@
 %-------------------------------------------------------------------------------
 \input{resume/summary.tex}
 \input{resume/experience.tex}
-\input{resume/honors.tex}
 \input{resume/presentation.tex}
 \input{resume/writing.tex}
-\input{resume/committees.tex}
 \input{resume/education.tex}
-\input{resume/extracurricular.tex}
 
 
 %-------------------------------------------------------------------------------
